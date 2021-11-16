@@ -29,12 +29,16 @@ const Header = () => {
 
 export default Header
 
+const ActionButton = tw.div`
+flex cursor-pointer transform hover:scale-105 transition
+`
+
 const ActionItems = tw.div`
-flex text-4xl text-blue-500
+flex text-3xl text-blue-600 justify-between items-center 
 `
 
 const Wrapper = tw.div`
-flex flex-col h-screen 
+flex flex-col h-screen py-4 px-8
 `
 const Logo = tw.img`
 h-40 w-80 
