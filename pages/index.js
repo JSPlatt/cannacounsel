@@ -6,14 +6,18 @@ import Header from './components/Header'
 
 export default function Home() {
   return (
-    <Wrapper>
-      <Header />
-    </Wrapper>
+  <>
+    <Header />
+      <Wrapper>
+        Map
+        ToDo List
+      </Wrapper>
+</>
   )
 }
 
 const Wrapper = tw.div`
-
+bg-gray-200 h-screen
 `
 
 

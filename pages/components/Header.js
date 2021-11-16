@@ -1,10 +1,13 @@
 import React from 'react'
 import tw from 'tailwind-styled-components'
+import  Link  from 'next/link'
 
 const Header = () => {
     return (
         <Wrapper>
-            <Logo src='https://images.squarespace-cdn.com/content/v1/60aebfd53942b43aa5e17c42/1623294976419-9U1XSYK93JLP0HXIMHRX/CCNY%2Blong%2BLogo.jpg?format=1500w' alt='logo'/>
+            <Link href="https://www.cannabiscounselnewyork.com/">
+                <Logo src='https://images.squarespace-cdn.com/content/v1/60aebfd53942b43aa5e17c42/1623294976419-9U1XSYK93JLP0HXIMHRX/CCNY%2Blong%2BLogo.jpg?format=1500w' alt='logo'/>
+            </Link>
             <ActionItems>
                 <ActionButton>
                     DASHBOARD
@@ -38,8 +41,8 @@ flex text-3xl text-blue-600 justify-between items-center
 `
 
 const Wrapper = tw.div`
-flex flex-col h-screen py-4 px-8
+flex flex-col h-26 py-4 px-8 
 `
 const Logo = tw.img`
-h-40 w-80 
+h-40 w-80 cursor-pointer
 `
