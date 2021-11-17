@@ -9,28 +9,31 @@ const Header = () => {
                 <Logo src='https://images.squarespace-cdn.com/content/v1/60aebfd53942b43aa5e17c42/1623294976419-9U1XSYK93JLP0HXIMHRX/CCNY%2Blong%2BLogo.jpg?format=1500w' alt='logo'/>
             </Link>
             <ActionItems>
-                <Link>
+                <Link href='/'>
                     <ActionButton>
                         DASHBOARD
                     </ActionButton>
                 </Link> 
-                <Link>
+                <Link href='/TaskManagement'>
                     <ActionButton>
                         TASK MANAGEMENT
                     </ActionButton>
                 </Link>  
+                <Link href='/DocumentCenter'>
                     <ActionButton>
                         DOCUMENT CENTER
                     </ActionButton>
-                    
+                </Link>
+                <Link href='/VendorTracker'>    
                     <ActionButton>
                         VENDOR TRACKER
                     </ActionButton>
-                    
+                </Link>   
+                <Link href='/Notes'>   
                     <ActionButton>
                         NOTES
                     </ActionButton>
-            
+                </Link>
             </ActionItems>
             
         </Wrapper>
