@@ -17,7 +17,7 @@ export default function Home() {
 }
 
 const Wrapper = tw.div`
-bg-gray-200 h-screen
+bg-gray-100 h-screen
 `
 
 
