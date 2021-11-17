@@ -9,21 +9,28 @@ const Header = () => {
                 <Logo src='https://images.squarespace-cdn.com/content/v1/60aebfd53942b43aa5e17c42/1623294976419-9U1XSYK93JLP0HXIMHRX/CCNY%2Blong%2BLogo.jpg?format=1500w' alt='logo'/>
             </Link>
             <ActionItems>
-                <ActionButton>
-                    DASHBOARD
-                </ActionButton>
-                <ActionButton>
-                    TASK MANAGEMENT
-                </ActionButton>
-                <ActionButton>
-                    DOCUMENT CENTER
-                </ActionButton>
-                <ActionButton>
-                    VENDOR TRACKER
-                </ActionButton>
-                <ActionButton>
-                    NOTES
-                </ActionButton>
+                <Link>
+                    <ActionButton>
+                        DASHBOARD
+                    </ActionButton>
+                </Link> 
+                <Link>
+                    <ActionButton>
+                        TASK MANAGEMENT
+                    </ActionButton>
+                </Link>  
+                    <ActionButton>
+                        DOCUMENT CENTER
+                    </ActionButton>
+                    
+                    <ActionButton>
+                        VENDOR TRACKER
+                    </ActionButton>
+                    
+                    <ActionButton>
+                        NOTES
+                    </ActionButton>
+            
             </ActionItems>
             
         </Wrapper>
