@@ -69,7 +69,7 @@ flex cursor-pointer transform hover:scale-105 transition
 `
 
 const ActionItems = tw.div`
-flex text-3xl text-blue-600 justify-between items-center 
+flex text-3xl text-green-700 justify-between items-center 
 `
 
 const Wrapper = tw.div`
