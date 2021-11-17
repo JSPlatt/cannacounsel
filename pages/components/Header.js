@@ -5,9 +5,15 @@ import  Link  from 'next/link'
 const Header = () => {
     return (
         <Wrapper>
-            <Link href="https://www.cannabiscounselnewyork.com/">
-                <Logo src='https://images.squarespace-cdn.com/content/v1/60aebfd53942b43aa5e17c42/1623294976419-9U1XSYK93JLP0HXIMHRX/CCNY%2Blong%2BLogo.jpg?format=1500w' alt='logo'/>
-            </Link>
+            <HeaderTop>
+                <Link href="https://www.cannabiscounselnewyork.com/">
+                    <Logo src='https://images.squarespace-cdn.com/content/v1/60aebfd53942b43aa5e17c42/1623294976419-9U1XSYK93JLP0HXIMHRX/CCNY%2Blong%2BLogo.jpg?format=1500w' alt='logo'/>
+                </Link>
+                <Profile>
+                    <Name>Jeff Platt</Name>
+                    <UserImage src='https://avatars.githubusercontent.com/u/74726047?v=4'/>
+                </Profile>
+            </HeaderTop>
             <ActionItems>
                 <Link href='/'>
                     <ActionButton>
@@ -41,6 +47,22 @@ const Header = () => {
 }
 
 export default Header
+
+const HeaderTop = tw.div`
+flex justify-between items-center
+`
+
+const UserImage = tw.img`
+h-12 w-12 rounded-full border-gray-200 p-px cursor-pointer
+`
+
+const Name = tw.div`
+mr-4 w-20 text-sm
+`
+
+const Profile = tw.div`
+flex items-center
+`
 
 const ActionButton = tw.div`
 flex cursor-pointer transform hover:scale-105 transition
