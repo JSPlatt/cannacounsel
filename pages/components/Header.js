@@ -10,7 +10,7 @@ const Header = () => {
                     <Logo src='https://images.squarespace-cdn.com/content/v1/60aebfd53942b43aa5e17c42/1623294976419-9U1XSYK93JLP0HXIMHRX/CCNY%2Blong%2BLogo.jpg?format=1500w' alt='logo'/>
                 </Link>
                 <Profile>
-                    <Name>Jeff Platt</Name>
+                    <Name>Welcome Jeff Platt!</Name>
                     <UserImage src='https://avatars.githubusercontent.com/u/74726047?v=4'/>
                 </Profile>
             </HeaderTop>
@@ -57,7 +57,7 @@ h-12 w-12 rounded-full border-gray-200 p-px cursor-pointer
 `
 
 const Name = tw.div`
-mr-4 w-20 text-sm
+mr-4 w-20 text-sm 
 `
 
 const Profile = tw.div`
