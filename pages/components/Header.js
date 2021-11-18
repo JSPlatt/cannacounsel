@@ -9,10 +9,15 @@ const Header = () => {
                 <Link href="https://www.cannabiscounselnewyork.com/">
                     <Logo src='https://images.squarespace-cdn.com/content/v1/60aebfd53942b43aa5e17c42/1623294976419-9U1XSYK93JLP0HXIMHRX/CCNY%2Blong%2BLogo.jpg?format=1500w' alt='logo'/>
                 </Link>
+                
+                {/* Neeed to make this dynamic, Firebase most likely */}
                 <Profile>
                     <Name>Welcome Jeff Platt!</Name>
                     <UserImage src='https://avatars.githubusercontent.com/u/74726047?v=4'/>
                 </Profile>
+                {/* Neeed to make this dynamic, Firebase most likely */}
+
+                
             </HeaderTop>
             <ActionItems>
                 <Link href='/'>
