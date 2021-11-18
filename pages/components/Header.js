@@ -12,12 +12,12 @@ const Header = () => {
                 
                 {/* Neeed to make this dynamic, Firebase most likely */}
                 <Profile>
-                    <Name>Welcome Jeff Platt!</Name>
+                    <Name>Welcome User!</Name>
                     <UserImage src='https://avatars.githubusercontent.com/u/74726047?v=4'/>
                 </Profile>
                 {/* Neeed to make this dynamic, Firebase most likely */}
 
-                
+
             </HeaderTop>
             <ActionItems>
                 <Link href='/'>
