@@ -32,5 +32,5 @@ bg-gray-100 h-screen flex flex-col items-center text-2xl
 `
 
 const Todo = tw.div`
-flex flex-col justify-between items-center text-green-700 text-xl py-4 px-4 bg-red-500 
+flex flex-col justify-between items-center text-green-700 text-xl py-4 px-4 
 `
