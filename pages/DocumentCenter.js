@@ -6,7 +6,7 @@ const DocumentCenter = () => {
 
     return (
     <>
-    <Header/>
+    {/* <Header/> */}
         <Wrapper>
             <Todo>
                 <ol class="list-decimal">
