@@ -6,7 +6,7 @@ const DocumentCenter = () => {
 
     return (
     <>
-    <Header/>
+    {/* <Header/> */}
         <Wrapper>
             Document Center Page
             

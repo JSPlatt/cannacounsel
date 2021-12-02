@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import tw from 'tailwind-styled-components'
 import Header from './components/Header'
+import DocumentCenter from './DocumentCenter'
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
     <Header />
       <Wrapper>
         Map
-        ToDo List
+        <DocumentCenter/>
       </Wrapper>
 </>
   )
